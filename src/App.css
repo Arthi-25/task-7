@@ -1,0 +1,131 @@
+
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,600;1,500;1,700&family=Poppins:ital,wght@0,300;0,400;0,500;1,400&family=Reem+Kufi:wght@400;500;600;700&family=Slabo+27px&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body{
+  position: fixed;
+}
+header{
+  width: 100%;
+  height: 60px;
+  background-color: white;
+}
+nav{
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+}
+.logo{
+  font-size: 40px;
+  color: #1f1650f;
+  font-weight: 700;
+  line-height: 15px;
+}
+ul{
+  display: flex;
+  list-style-type: none;
+  line-height: 15px;
+}
+li{
+  margin-right:20px ;
+  font-size: 20px;
+  color: #1f1650f;
+
+}
+a{
+  text-decoration:none;
+}
+a:hover{
+  -webkit-text-fill-color: rgb(252, 12, 12);
+}
+main{
+  width: 100%;
+  height: 499px;
+  background-color: #1f1650f1;
+  padding: 30px ;
+  display:flex;
+  justify-content: space-between;
+}
+.img{
+  width: 100%;
+  margin-left: 10%;
+  margin-top: 2%;
+}
+.content{
+  width: 100%;
+  height: 50%;
+  /* display: flex;
+  flex-direction: column;
+  align-items: center; */
+  text-align:left;
+  margin-top: 50px;
+  margin-bottom: 0%;
+  
+}
+h1{
+  color: rgb(252, 248, 12);
+  margin-bottom: 40px;
+  font-size:40px;
+}
+p{
+  color: rgb(240, 239, 230);
+  margin-bottom: 20px;
+  font-size:large;
+}
+button{
+  height: 50px;
+  font-size:large;
+  padding: 10px;
+  color: rgb(19, 18, 18);
+  background-color: rgb(235, 220, 15);
+}
+button:hover{
+  background-color: rgba(9, 245, 253, 0.966);
+  -webkit-text-fill-color: black;
+}
+footer{
+  width: 100%;
+  height: 60px;
+  background-color:#1f1650f1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(54, 4, 4);
+}
+footer{
+  background-color:#1f1650f1;
+}
+.footercontainer{
+  height: 100px;
+  display:flex;
+  justify-content:center;
+  align-items: center;
+  width: 100%;
+  padding: 20px 20px;
+  color: transparent;
+}
+.socialicons a{
+  text-decoration: none;
+  padding: 10px;
+  background-color:transparent;
+  margin: 10px;
+  border-radius: 50;
+}
+.socialicons a i{
+  font-size: 2em;
+  color: white;
+  opacity: 0.9;
+}
+.socialicons a:hover{
+  background-color: transparent;
+  transition: 0.05s;
+}
+.socialicons a:hover i{
+  transition: 0.5s;
+  -webkit-text-fill-color: rgb(252, 248, 12);
+}
